@@ -1,0 +1,31 @@
+{% extends "page.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Wiki</h1>
+    </div>
+</div>
+
+
+<dir class="wiki-body" style= " display:flex; align-items: center; width: 100%; height:100%; flex:1  ">
+
+  <br>
+  <div class="files" style = "height:100%"  >
+
+    <h3>Files</h3>
+
+    {% for file in soluce_file %}
+      {{file}}
+      <br>
+    {% endfor %}
+
+  </div>
+
+  <div class="soluce" style = "height:100%; width:100%" >
+
+    <h3>Soluce</h3>
+
+  </div>
+</dir>
+{% endblock content %}

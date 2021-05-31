@@ -1,4 +1,6 @@
-{
-    "name": "CTFd Wiki",
-    "route": "/wiki"
-}
+[
+	{
+	    "name": "Wiki",
+	    "route": "/wiki"
+	}
+]
